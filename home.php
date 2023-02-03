@@ -19,26 +19,6 @@
     <title>PSC - Home</title>
     <style>
         .partnership{width: 25vw; height: 20vh; }
-        @media (min-width: 1281px) {
-
-        }
-
-        /*
-          ##Device = Laptops, Desktops
-          ##Screen = B/w 1025px to 1280px
-        */
-
-        @media (min-width: 1025px) and (max-width: 1280px) {
-
-            /* CSS */
-
-        }
-
-        /*
-          ##Device = Tablets, Ipads (portrait)
-          ##Screen = B/w 768px to 1024px
-        */
-
         @media (min-width: 768px) and (max-width: 1024px) {
             .partnership{width: 40vw; height: 10vh; }
         }
@@ -58,7 +38,8 @@
         */
 
         @media (min-width: 481px) and (max-width: 767px) {
-            ..partnership{width: 35vw; height: 20vh; }
+            .partnership{width: 35vw; height: 20vh; }
+            .swiper-slide{width: 100% !important;}
         }
 
         /*
@@ -68,6 +49,7 @@
 
         @media (min-width: 320px) and (max-width: 480px) {
             .partnership{width: 35vw; height: 20vh; }
+            .swiper-slide{width: 100% !important;}
         }
 
         .gg-masthead-1 {width:220px; height: 380px; border-radius: 20px;}
@@ -394,7 +376,7 @@
                         <div data-anim-child="slide-up delay-4" class="col-lg-4 col-md-6">
                             <a href="#" class="blogCard -type-1">
                                 <div class="blogCard__image">
-                                    <img class="w-1/1 rounded-8" src="assets/img/blog-list/1.png" alt="image">
+                                    <img class="w-1/1 rounded-8" src="assets/img/psc/customer-service-training-1.jpg" alt="image">
                                 </div>
                                 <div class="blogCard__content mt-20">
                                     <div class="blogCard__category">CUSTOMER SERVICE</div>
@@ -407,7 +389,7 @@
                         <div data-anim-child="slide-up delay-4" class="col-lg-4 col-md-6">
                             <a href="#" class="blogCard -type-1">
                                 <div class="blogCard__image">
-                                    <img class="w-1/1 rounded-8" src="assets/img/blog-list/2.png" alt="image">
+                                    <img class="w-1/1 rounded-8" src="assets/img/psc/leadership-1.png" alt="image">
                                 </div>
                                 <div class="blogCard__content mt-20">
                                     <div class="blogCard__category">LEADERSHIP &amp; MANAGEMENT</div>
@@ -420,7 +402,7 @@
                         <div data-anim-child="slide-up delay-4" class="col-lg-4 col-md-6">
                             <a href="#" class="blogCard -type-1">
                                 <div class="blogCard__image">
-                                    <img class="w-1/1 rounded-8" src="assets/img/blog-list/3.png" alt="image">
+                                    <img class="w-1/1 rounded-8" src="assets/img/psc/team-building-1.png" alt="image">
                                 </div>
                                 <div class="blogCard__content mt-20">
                                     <div class="blogCard__category">TEAM BUILDING</div>
