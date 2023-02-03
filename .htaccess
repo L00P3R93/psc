@@ -1,0 +1,13 @@
+RewriteEngine on 
+RewriteCond %{HTTP_HOST} ^psctraining\.co\.ke [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://psctraining.co.ke/$1 [R,L]
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^(.*)$ $1.php
+
+
+
+
+
+
