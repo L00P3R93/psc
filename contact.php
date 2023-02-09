@@ -10,6 +10,30 @@
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
 
+        <!-- Primary Meta Tags -->
+        <meta name="title" content="Exceptional Training with Top Professionals">
+        <meta name="description" content="Permanent Success consultancy was founded and kicked off its activities in 2020, with an aim of providing long lasting solutions to individuals and institutions through comprehensive training programs.">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://psctraining.co.ke/">
+        <meta property="og:title" content="Exceptional Training with Top Professionals">
+        <meta property="og:description" content="Permanent Success consultancy was founded and kicked off its activities in 2020, with an aim of providing long lasting solutions to individuals and institutions through comprehensive training programs.">
+        <meta property="og:image" content="assets/img/psc/3D-Background.png">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://psctraining.co.ke/">
+        <meta property="twitter:title" content="Exceptional Training with Top Professionals">
+        <meta property="twitter:description" content="Permanent Success consultancy was founded and kicked off its activities in 2020, with an aim of providing long lasting solutions to individuals and institutions through comprehensive training programs.">
+        <meta property="twitter:image" content="assets/img/psc/3D-Background.png">
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/base.min.css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
 
@@ -21,7 +45,50 @@
         <link rel="stylesheet" href="assets/css/vendors.css">
         <link rel="stylesheet" href="assets/css/main.css">
 
-        <title>Educrat</title>
+        <title>PSC - Contact Us</title>
+        <style>
+            .partnership{width: 25vw; height: 20vh; }
+            @media (min-width: 768px) and (max-width: 1024px) {
+                .partnership{width: 40vw; height: 10vh; }
+            }
+
+            /*
+              ##Device = Tablets, Ipads (landscape)
+              ##Screen = B/w 768px to 1024px
+            */
+
+            @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+                .partnership{width: 40vw; height: 10vh; }
+            }
+
+            /*
+              ##Device = Low Resolution Tablets, Mobiles (Landscape)
+              ##Screen = B/w 481px to 767px
+            */
+
+            @media (min-width: 481px) and (max-width: 767px) {
+                .partnership{width: 35vw; height: 20vh; }
+                .swiper-slide{width: 100% !important;}
+                .psc_logo {width: 250px !important; height: 25px !important;}
+            }
+
+            /*
+              ##Device = Most of the Smartphones Mobiles (Portrait)
+              ##Screen = B/w 320px to 479px
+            */
+
+            @media (min-width: 320px) and (max-width: 480px) {
+                .partnership{width: 300px; height: 100px; }
+                .swiper-slide{width: 100% !important;}
+                .psc_logo {width: 250px !important; height: 50px !important;}
+            }
+
+            .gg-masthead-1 {width:220px; height: 380px; border-radius: 20px;}
+            .gg-masthead-2 {width:250px; height: 180px; border-radius: 20px;}
+            .masthead.-type-1 .masthead-image__el2 > div {bottom: -10px;right: 100px;}
+            .masthead.-type-1 .masthead-image__el3 > div {bottom: -25px;right: 15px;}
+            .psc_logo {width: 500px; height: 35px;}
+        </style>
     </head>
 
     <body class="preloader-visible" data-barba="wrapper">
@@ -41,7 +108,7 @@
                             <div class="header-left">
                                 <div class="header__logo ">
                                     <a data-barba href="index">
-                                        <img src="assets/img/general/logo.svg" alt="logo">
+                                        <img class="psc_logo" src="assets/img/psc/psc-logo.png" alt="logo">
                                     </a>
                                 </div>
                             </div>
@@ -49,6 +116,9 @@
                         <div class="header-menu js-mobile-menu-toggle ">
                             <div class="header-menu__content">
                                 <div class="mobile-bg js-mobile-bg"></div>
+                                <div class="d-none xl:d-flex items-center px-20 py-20 border-bottom-light">
+                                    <a href="#" class="text-dark-1 ml-30">Contact Us</a>
+                                </div>
                                 <div class="menu js-navList">
                                     <ul class="menu__nav text-white -is-active">
                                         <li>
@@ -119,67 +189,60 @@
                     </div>
                 </div>
             </header>
-
             <div class="content-wrapper  js-content-wrapper">
-                <section class="page-header -type-4 bg-beige-1">
+                <!-- Breadcrumbs Navigation -->
+                <section data-anim="fade" class="breadcrumbs ">
                     <div class="container">
-                        <div class="page-header__content">
-                            <div class="row">
-                                <div class="col-auto">
-                                    <div data-anim="slide-up delay-1">
-                                        <h1 class="page-header__title">Contact Us</h1>
+                        <div class="row">
+                            <div class="col-auto">
+                                <div class="breadcrumbs__content">
+                                    <div class="breadcrumbs__item ">
+                                        <a href="home">Home</a>
                                     </div>
-
-                                    <div data-anim="slide-up delay-2">
-                                        <p class="page-header__text">We’re on a mission to deliver engaging, curated<br> courses at a reasonable price.</p>
+                                    <div class="breadcrumbs__item ">
+                                        <a href="about-us">Contact Us</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-
+                <!-- About Us Title -->
+                <section class="page-header -type-1">
+                    <div class="container">
+                        <div class="page-header__content">
+                            <div class="row justify-center text-center">
+                                <div class="col-auto">
+                                    <div data-anim="slide-up delay-1">
+                                        <h1 class="page-header__title">Contact Us</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Contact Form -->
                 <section class="layout-pt-md layout-pb-lg">
                     <div data-anim-wrap class="container">
-                        <div class="row y-gap-50 justify-between">
+                        <div class="row y-gap-10 justify-between">
                             <div class="col-xl-5 col-lg-6">
-                                <h3 class="text-24 lh-1 fw-500">Our offices</h3>
+                                <h3 class="text-24 lh-1 fw-500">Reach Out:</h3>
                                 <div class="row y-gap-30 pt-40">
 
                                     <div class="col-sm-6">
-                                        <div class="text-20 fw-500 text-dark-1">London</div>
+                                        <div class="text-20 fw-500 text-dark-1">Nairobi, Kenya</div>
                                         <div class="y-gap-10 pt-15">
-                                            <a href="#" class="d-block">328 Queensberry Street, North Melbourne VIC 3051, Australia.</a>
-                                            <a href="#" class="d-block">+(1) 123 456 7890</a>
-                                            <a href="#" class="d-block">hi@educrat.com</a>
+                                            <a href="#" class="d-block">+254 728 023 465</a>
+                                            <a href="#" class="d-block">info@psctraining.co.ke</a>
                                         </div>
                                     </div>
-
-                                    <div class="col-sm-6">
-                                        <div class="text-20 fw-500 text-dark-1">Paris</div>
-                                        <div class="y-gap-10 pt-15">
-                                            <a href="#" class="d-block">328 Queensberry Street, North Melbourne VIC 3051, Australia.</a>
-                                            <a href="#" class="d-block">+(1) 123 456 7890</a>
-                                            <a href="#" class="d-block">hi@educrat.com</a>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6">
-                                        <div class="text-20 fw-500 text-dark-1">Los Angeles</div>
-                                        <div class="y-gap-10 pt-15">
-                                            <a href="#" class="d-block">328 Queensberry Street, North Melbourne VIC 3051, Australia.</a>
-                                            <a href="#" class="d-block">+(1) 123 456 7890</a>
-                                            <a href="#" class="d-block">hi@educrat.com</a>
-                                        </div>
-                                    </div>
-
                                 </div>
                             </div>
 
-                            <div class="col-lg-6">
-                                <div class="px-40 py-40 bg-white border-light shadow-1 rounded-8 contact-form-to-top">
+                            <div class="col-xl-5 col-lg-6">
+                                <div class="px-40 py-40 bg-white border-light shadow-1 rounded-8">
                                     <h3 class="text-24 fw-500">Send a Message</h3>
-                                    <p class="mt-25">Neque convallis a cras semper auctor. Libero id faucibus nisl<br> tincidunt egetnvallis.</p>
+                                    <p class="mt-25"></p>
 
                                     <form class="contact-form row y-gap-30 pt-60 lg:pt-40" action="#">
                                         <div class="col-12">
@@ -205,109 +268,6 @@
                         </div>
                     </div>
                 </section>
-
-                <section class="layout-pt-lg layout-pb-lg bg-light-4">
-                    <div class="container">
-                        <div class="row justify-center text-center">
-                            <div class="col-xl-8 col-lg-9 col-md-11">
-
-                                <div class="sectionTitle ">
-
-                                    <h2 class="sectionTitle__title ">Frequently Asked Questions.</h2>
-
-                                    <p class="sectionTitle__text ">Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-
-                                </div>
-
-
-                                <div class="accordion -block text-left pt-60 lg:pt-40 js-accordion">
-
-                                    <div class="accordion__item">
-                                        <div class="accordion__button">
-                                            <div class="accordion__icon">
-                                                <div class="icon" data-feather="plus"></div>
-                                                <div class="icon" data-feather="minus"></div>
-                                            </div>
-                                            <span class="text-17 fw-500 text-dark-1">Do you offer discounts for students?</span>
-                                        </div>
-
-                                        <div class="accordion__content">
-                                            <div class="accordion__content__inner">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="accordion__item">
-                                        <div class="accordion__button">
-                                            <div class="accordion__icon">
-                                                <div class="icon" data-feather="plus"></div>
-                                                <div class="icon" data-feather="minus"></div>
-                                            </div>
-                                            <span class="text-17 fw-500 text-dark-1">Do you offer special pricing for big teams?</span>
-                                        </div>
-
-                                        <div class="accordion__content">
-                                            <div class="accordion__content__inner">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="accordion__item">
-                                        <div class="accordion__button">
-                                            <div class="accordion__icon">
-                                                <div class="icon" data-feather="plus"></div>
-                                                <div class="icon" data-feather="minus"></div>
-                                            </div>
-                                            <span class="text-17 fw-500 text-dark-1">What is the past experience of your teachers?</span>
-                                        </div>
-
-                                        <div class="accordion__content">
-                                            <div class="accordion__content__inner">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="accordion__item">
-                                        <div class="accordion__button">
-                                            <div class="accordion__icon">
-                                                <div class="icon" data-feather="plus"></div>
-                                                <div class="icon" data-feather="minus"></div>
-                                            </div>
-                                            <span class="text-17 fw-500 text-dark-1">What is the course refund policy?</span>
-                                        </div>
-
-                                        <div class="accordion__content">
-                                            <div class="accordion__content__inner">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="accordion__item">
-                                        <div class="accordion__button">
-                                            <div class="accordion__icon">
-                                                <div class="icon" data-feather="plus"></div>
-                                                <div class="icon" data-feather="minus"></div>
-                                            </div>
-                                            <span class="text-17 fw-500 text-dark-1">Do you offer discounts for non-profits?</span>
-                                        </div>
-
-                                        <div class="accordion__content">
-                                            <div class="accordion__content__inner">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
                 <!-- Footer -->
                 <footer class="footer -type-1 bg-dark-1 -green-links">
                     <div class="container">
@@ -315,7 +275,7 @@
                             <div class="row y-gap-20 justify-between items-center">
                                 <div class="col-auto">
                                     <div class="footer-header__logo">
-                                        <img src="assets/img/footer/footer-logo.svg" alt="logo">
+                                        <img class="psc_logo" src="assets/img/psc/psc-logo.png" alt="logo">
                                     </div>
                                 </div>
                                 <div class="col-auto">

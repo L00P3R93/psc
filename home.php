@@ -9,6 +9,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Exceptional Training with Top Professionals">
+    <meta name="description" content="Permanent Success consultancy was founded and kicked off its activities in 2020, with an aim of providing long lasting solutions to individuals and institutions through comprehensive training programs.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://psctraining.co.ke/">
+    <meta property="og:title" content="Exceptional Training with Top Professionals">
+    <meta property="og:description" content="Permanent Success consultancy was founded and kicked off its activities in 2020, with an aim of providing long lasting solutions to individuals and institutions through comprehensive training programs.">
+    <meta property="og:image" content="assets/img/psc/3D-Background.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://psctraining.co.ke/">
+    <meta property="twitter:title" content="Exceptional Training with Top Professionals">
+    <meta property="twitter:description" content="Permanent Success consultancy was founded and kicked off its activities in 2020, with an aim of providing long lasting solutions to individuals and institutions through comprehensive training programs.">
+    <meta property="twitter:image" content="assets/img/psc/3D-Background.png">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
@@ -30,6 +53,7 @@
 
         @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
             .partnership{width: 40vw; height: 10vh; }
+            .psc_logo {width: 56vw !important; height: 4vh !important;}
         }
 
         /*
@@ -40,6 +64,7 @@
         @media (min-width: 481px) and (max-width: 767px) {
             .partnership{width: 35vw; height: 20vh; }
             .swiper-slide{width: 100% !important;}
+            .psc_logo {width: 63vw !important; height: 4vh !important;}
         }
 
         /*
@@ -48,14 +73,20 @@
         */
 
         @media (min-width: 320px) and (max-width: 480px) {
-            .partnership{width: 35vw; height: 20vh; }
+            .partnership{width: 300px; height: 100px; }
             .swiper-slide{width: 100% !important;}
+            .psc_logo {width: 63vw !important; height: 4vh !important;}
         }
 
-        .gg-masthead-1 {width:220px; height: 380px; border-radius: 20px;}
-        .gg-masthead-2 {width:250px; height: 180px; border-radius: 20px;}
+        .gg-masthead-1 {max-width: unset !important; width:220px; height: 380px; border-radius: 20px;}
+        .gg-masthead-2 {max-width: unset !important; width:250px; height: 180px; border-radius: 20px;}
         .masthead.-type-1 .masthead-image__el2 > div {bottom: -10px;right: 100px;}
         .masthead.-type-1 .masthead-image__el3 > div {bottom: -25px;right: 15px;}
+        .psc_logo {width: 40vw; height: 6vh;}
+        .team {width: 200px !important; height: 200px; border-radius: 50%;}
+        .program {height: 163px !important;}
+        .testy {width: 80px; height: 80px; border-radius: 50%;}
+        .img-el.-w-340 {width: 340px;}
     </style>
 </head>
 
@@ -76,7 +107,7 @@
                     <div class="header-left">
                         <div class="header__logo ">
                             <a data-barba href="index">
-                                <img src="assets/img/general/logo.svg" alt="logo">
+                                <img class="psc_logo" src="assets/img/psc/psc-logo.png" alt="logo">
                             </a>
                         </div>
                     </div>
@@ -173,15 +204,14 @@
                                 with Top <span class="text-green-1 underline">Professionals</span>
                             </h1>
                             <p data-anim-child="slide-up delay-1" class="masthead__text">
-                                Build skills with courses, certificates, and degrees online from<br>
-                                world-class universities and companies.
+                                YOUR DREAMS, OUR PRIORITY
                             </p>
                             <div data-anim-child="slide-up delay-2" class="masthead__buttons row x-gap-10 y-gap-10">
                                 <div class="col-12 col-sm-auto">
-                                    <a data-barba href="#" class="button -md -purple-1 text-white">Find Out More</a>
+                                    <a data-barba href="about-us" class="button -md -purple-1 text-white">Find Out More</a>
                                 </div>
                                 <div class="col-12 col-sm-auto">
-                                    <a data-barba href="#" class="button -md -outline-green-1 text-green-1">Contact Us</a>
+                                    <a data-barba href="contact" class="button -md -outline-green-1 text-green-1">Contact Us</a>
                                 </div>
                             </div>
                             <div data-anim-child="slide-up delay-3" class="masthead-info row y-gap-15 sm:d-none">
@@ -223,16 +253,16 @@
                             <div class="masthead-image__el2">
                                 <img class="gg-masthead-2" data-move="70" src="assets/img/psc/gg-landscape.jpeg" alt="image">
 
-                                <div data-move="60" class="lg:d-none img-el -w-260 px-20 py-20 d-flex items-center bg-white rounded-8">
+                                <div data-move="60" class="lg:d-none img-el -w-340 px-20 py-20 d-flex items-center bg-white rounded-8">
                                     <div class="ml-20">
-                                        <div class="text-dark-1 text-16 fw-500 lh-1">Gerrishom Malungu</div>
-                                        <div class="mt-3">Motivational Speaker</div>
+                                        <div class="text-dark-1 text-16 fw-500 lh-1">Gamaliel Gerishom Malungu</div>
+                                        <div class="mt-3">Corporate Trainer, Business Coach</div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="masthead-image__el3">
-                                <img class="gg-masthead-2" data-move="40" src="assets/img/psc/gg-landscape.jpeg" alt="image">
+                                <!--<img class="gg-masthead-2" data-move="40" src="assets/img/psc/gerrishom.jpg" alt="image">-->
 
                                 <div data-move="30" class="shadow-4 img-el -w-260 px-30 py-20 d-flex items-center bg-white rounded-8">
                                     <div class="img-el__side">
@@ -284,7 +314,6 @@
                             <img class="partnership" src="assets/img/psc/partner-2-alive365.jpg" alt="clients image">
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -354,60 +383,65 @@
 
                     <div class="col-xl-5 col-lg-6 order-1 order-lg-2">
                         <div data-anim-child="slide-up delay-5" class="about-image">
-                            <img src="assets/img/about/1.png" alt="image">
+                            <img src="assets/img/psc/training.jpg" alt="image">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Gallery -->
+        <!-- Training Programs -->
         <section class="layout-pt-md layout-pb-lg">
             <div data-anim-wrap class="container">
                 <div class="row justify-center text-center">
                     <div class="col-auto">
                         <div class="sectionTitle ">
-                            <h2 class="sectionTitle__title ">Training Events</h2>
+                            <h2 class="sectionTitle__title ">Training Programs</h2>
                         </div>
                     </div>
                 </div>
 
                 <div class="pt-50 js-tabs">
                     <div class="row y-gap-30">
-                        <div data-anim-child="slide-up delay-4" class="col-lg-4 col-md-6">
+                        <div data-anim-child="slide-up delay-4" class="col-lg-3 col-md-6">
                             <a href="#" class="blogCard -type-1">
                                 <div class="blogCard__image">
-                                    <img class="w-1/1 rounded-8" src="assets/img/psc/customer-service-training-1.jpg" alt="image">
+                                    <img class="w-1/1 rounded-8 program" src="assets/img/psc/customer-service.gif" alt="image">
                                 </div>
                                 <div class="blogCard__content mt-20">
                                     <div class="blogCard__category">CUSTOMER SERVICE</div>
-                                    <h4 class="blogCard__title text-20 lh-15 fw-500 mt-5">Eco-Education in Our Lives: We Can Change the Future</h4>
-                                    <div class="blogCard__date text-14 mt-5">December 16, 2022</div>
                                 </div>
                             </a>
                         </div>
 
-                        <div data-anim-child="slide-up delay-4" class="col-lg-4 col-md-6">
+                        <div data-anim-child="slide-up delay-4" class="col-lg-3 col-md-6">
                             <a href="#" class="blogCard -type-1">
                                 <div class="blogCard__image">
-                                    <img class="w-1/1 rounded-8" src="assets/img/psc/leadership-1.png" alt="image">
+                                    <img class="w-1/1 rounded-8 program" src="assets/img/psc/leadership-1.png" alt="image">
                                 </div>
                                 <div class="blogCard__content mt-20">
                                     <div class="blogCard__category">LEADERSHIP &amp; MANAGEMENT</div>
-                                    <h4 class="blogCard__title text-20 lh-15 fw-500 mt-5">Engendering a culture of professional development</h4>
-                                    <div class="blogCard__date text-14 mt-5">December 16, 2022</div>
                                 </div>
                             </a>
                         </div>
 
-                        <div data-anim-child="slide-up delay-4" class="col-lg-4 col-md-6">
+                        <div data-anim-child="slide-up delay-4" class="col-lg-3 col-md-6">
                             <a href="#" class="blogCard -type-1">
                                 <div class="blogCard__image">
-                                    <img class="w-1/1 rounded-8" src="assets/img/psc/team-building-1.png" alt="image">
+                                    <img class="w-1/1 rounded-8 program" src="assets/img/psc/team-building.gif" alt="image">
                                 </div>
                                 <div class="blogCard__content mt-20">
                                     <div class="blogCard__category">TEAM BUILDING</div>
-                                    <h4 class="blogCard__title text-20 lh-15 fw-500 mt-5">Increasing engagement with Instagram</h4>
-                                    <div class="blogCard__date text-14 mt-5">December 16, 2022</div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div data-anim-child="slide-up delay-4" class="col-lg-3 col-md-6">
+                            <a href="#" class="blogCard -type-1">
+                                <div class="blogCard__image">
+                                    <img class="w-1/1 rounded-8 program" src="assets/img/psc/employee-productivity.gif" alt="image">
+                                </div>
+                                <div class="blogCard__content mt-20">
+                                    <div class="blogCard__category">EMPLOYEE PRODUCTIVITY</div>
                                 </div>
                             </a>
                         </div>
@@ -416,67 +450,51 @@
             </div>
         </section>
         <!-- Testimonials -->
-        <section class="layout-pt-lg layout-pb-lg bg-purple-1">
+        <section class="layout-pt-md layout-pb-md">
             <div class="container">
-                <div class="row justify-center text-center">
+                <div class="row y-gap-20 justify-center text-center">
                     <div class="col-auto">
                         <div class="sectionTitle ">
-                            <h2 class="sectionTitle__title text-green-1">Testimonials</h2>
+                            <h2 class="sectionTitle__title ">Testimonials</h2>
                         </div>
+
                     </div>
                 </div>
 
-                <div data-anim-wrap class="js-section-slider pt-50" data-gap="30" data-pagination data-slider-cols="base-3 xl-3 lg-2 md-2 sm-1">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div data-anim-child="slide-left delay-1" class="testimonials -type-1">
-                                <div class="testimonials__content">
-                                    <h4 class="testimonials__title">Great Work</h4>
-                                    <p class="testimonials__text"> “I think Educrat is the best theme I ever seen this year. Amazing design, easy to customize and a design quality superlative account on its cloud platform for the optimized performance”</p>
+                <div class="row justify-center pt-60">
+                    <div class="col-xl-6 col-lg-8 col-md-10">
+                        <div class="overflow-hidden js-testimonials-slider">
+                            <div class="swiper-wrapper">
 
-                                    <div class="testimonials-footer">
-                                        <div class="testimonials-footer__image">
-                                            <img src="assets/img/testimonials/1.png" alt="image">
+                                <div class="swiper-slide h-100">
+                                    <div data-anim="slide-up" class="testimonials -type-2 text-center">
+                                        <div class="testimonials__icon">
+                                            <img class="testy" src="assets/img/misc/quote.svg" alt="quote">
                                         </div>
+                                        <div class="testimonials__text md:text-20 fw-500 text-dark-1">
+                                            <p>The training offered here has been very beneficial to the growth of my organization due to the excellent service provided in this company.</p>
+                                            <p>Futhermore, the team building activities that my employees went through empowered each of them to be vitally involved in the work to produce more results, additionally it has caused my team to more efficient in their work due to the strength of each team member.</p>
+                                            <p>I’m grateful for this team for training my company to produce more lasting results.</p>
+                                        </div>
+                                        <div class="testimonials__author">
+                                            <h5 class="text-17 lh-15 fw-500">Jessica Mwangi</h5>
+                                            <div class="mt-5">Future Adventures</div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                                        <div class="testimonials-footer__content">
-                                            <div class="testimonials-footer__title">Courtney Henry</div>
-                                            <div class="testimonials-footer__text">Web Designer</div>
+                            </div>
+
+                            <div class="pt-60 lg:pt-40">
+                                <div class="pagination -avatars row x-gap-40 y-gap-20 justify-center js-testimonials-pagination">
+
+                                    <div class="col-auto">
+                                        <div class="pagination__item is-active">
+                                            <img class="testy" src="assets/img/psc/jessica.mwangi.jpeg" alt="image">
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div data-anim-child="slide-left delay-2" class="testimonials -type-1">
-                                <div class="testimonials__content">
-                                    <h4 class="testimonials__title">Great Work</h4>
-                                    <p class="testimonials__text"> “I think Educrat is the best theme I ever seen this year. Amazing design, easy to customize and a design quality superlative account on its cloud platform for the optimized performance”</p>
-
-                                    <div class="testimonials-footer">
-                                        <div class="testimonials-footer__image">
-                                            <img src="assets/img/testimonials/2.png" alt="image">
-                                        </div>
-
-                                        <div class="testimonials-footer__content">
-                                            <div class="testimonials-footer__title">Ronald Richards</div>
-                                            <div class="testimonials-footer__text">President of Sales</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="d-flex x-gap-20 items-center justify-end pt-60 lg:pt-40">
-                        <div class="col-auto">
-                            <button class="button -outline-white text-white size-50 rounded-full d-flex justify-center items-center js-prev">
-                                <i class="icon icon-arrow-left text-24"></i>
-                            </button>
-                        </div>
-                        <div class="col-auto">
-                            <button class="button -outline-white text-white size-50 rounded-full d-flex justify-center items-center js-next">
-                                <i class="icon icon-arrow-right text-24"></i>
-                            </button>
                         </div>
                     </div>
                 </div>
@@ -486,18 +504,18 @@
         <section class="layout-pt-lg layout-pb-lg">
             <div data-anim-wrap class="container">
                 <div data-anim-child="slide-left delay-1" class="row y-gap-20 justify-between items-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-10">
                         <div class="sectionTitle ">
                             <h2 class="sectionTitle__title ">Permanent Success Consultancy Professionals</h2>
-                            <p class="sectionTitle__text ">Our Team of Professional Trainers</p>
+                            <p class="sectionTitle__text ">Our Team of Professionals</p>
                         </div>
                     </div>
                 </div>
                 <div class="row y-gap-30 pt-50">
                     <div class="col-lg-4 col-sm-6">
-                        <div data-anim-child="slide-left delay-2" class="teamCard -type-1 -teamCard-hover">
+                        <div data-anim-child="slide-left delay-2" class="teamCard -type-1 -teamCard-hover text-center">
                             <div class="teamCard__image">
-                                <img src="assets/img/team/1.png" alt="image">
+                                <img class="team" src="assets/img/psc/gerrishom.jpg" alt="image">
                                 <div class="teamCard__socials">
                                     <div class="d-flex x-gap-20 y-gap-10 justify-center items-center h-100">
                                         <a href="#"><i class="icon-facebook text-white"></i></a>
@@ -508,39 +526,15 @@
                                 </div>
                             </div>
                             <div class="teamCard__content">
-                                <h4 class="teamCard__title">Floyd Miles</h4>
-                                <p class="teamCard__text">President of Sales</p>
-
-                                <div class="row items-center y-gap-10 x-gap-10 pt-10">
-                                    <div class="col-auto">
-                                        <div class="d-flex items-center">
-                                            <div class="icon-star text-yellow-1 text-11 mr-5"></div>
-                                            <div class="text-14 lh-12 text-yellow-1 fw-500">4.5</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-auto">
-                                        <div class="d-flex items-center">
-                                            <div class="icon-online-learning text-light-1 text-11 mr-5"></div>
-                                            <div class="text-14 lh-12">692 Students</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-auto">
-                                        <div class="d-flex items-center">
-                                            <div class="icon-play text-light-1 text-11 mr-5"></div>
-                                            <div class="text-14 lh-12">15 Course</div>
-                                        </div>
-                                    </div>
-
-                                </div>
+                                <h4 class="teamCard__title">Mr. Gamaliel Gerishom Malungu</h4>
+                                <p class="teamCard__text">Director, Chief Trainer</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <div data-anim-child="slide-left delay-3" class="teamCard -type-1 -teamCard-hover">
+                        <div data-anim-child="slide-left delay-3" class="teamCard -type-1 -teamCard-hover text-center">
                             <div class="teamCard__image">
-                                <img src="assets/img/team/2.png" alt="image">
+                                <img class="team" src="assets/img/psc/milly.jpg" alt="image">
                                 <div class="teamCard__socials">
                                     <div class="d-flex x-gap-20 y-gap-10 justify-center items-center h-100">
                                         <a href="#"><i class="icon-facebook text-white"></i></a>
@@ -551,75 +545,8 @@
                                 </div>
                             </div>
                             <div class="teamCard__content">
-                                <h4 class="teamCard__title">Cameron Williamson</h4>
-                                <p class="teamCard__text">Web Designer</p>
-
-                                <div class="row items-center y-gap-10 x-gap-10 pt-10">
-                                    <div class="col-auto">
-                                        <div class="d-flex items-center">
-                                            <div class="icon-star text-yellow-1 text-11 mr-5"></div>
-                                            <div class="text-14 lh-12 text-yellow-1 fw-500">4.5</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-auto">
-                                        <div class="d-flex items-center">
-                                            <div class="icon-online-learning text-light-1 text-11 mr-5"></div>
-                                            <div class="text-14 lh-12">692 Students</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-auto">
-                                        <div class="d-flex items-center">
-                                            <div class="icon-play text-light-1 text-11 mr-5"></div>
-                                            <div class="text-14 lh-12">15 Course</div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div data-anim-child="slide-left delay-4" class="teamCard -type-1 -teamCard-hover">
-                            <div class="teamCard__image">
-                                <img src="assets/img/team/3.png" alt="image">
-                                <div class="teamCard__socials">
-                                    <div class="d-flex x-gap-20 y-gap-10 justify-center items-center h-100">
-                                        <a href="#"><i class="icon-facebook text-white"></i></a>
-                                        <a href="#"><i class="icon-twitter text-white"></i></a>
-                                        <a href="#"><i class="icon-instagram text-white"></i></a>
-                                        <a href="#"><i class="icon-linkedin text-white"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="teamCard__content">
-                                <h4 class="teamCard__title">Brooklyn Simmons</h4>
-                                <p class="teamCard__text">Dog Trainer</p>
-
-                                <div class="row items-center y-gap-10 x-gap-10 pt-10">
-                                    <div class="col-auto">
-                                        <div class="d-flex items-center">
-                                            <div class="icon-star text-yellow-1 text-11 mr-5"></div>
-                                            <div class="text-14 lh-12 text-yellow-1 fw-500">4.5</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-auto">
-                                        <div class="d-flex items-center">
-                                            <div class="icon-online-learning text-light-1 text-11 mr-5"></div>
-                                            <div class="text-14 lh-12">692 Students</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-auto">
-                                        <div class="d-flex items-center">
-                                            <div class="icon-play text-light-1 text-11 mr-5"></div>
-                                            <div class="text-14 lh-12">15 Course</div>
-                                        </div>
-                                    </div>
-
-                                </div>
+                                <h4 class="teamCard__title">Milly Muhoro</h4>
+                                <p class="teamCard__text">Customer service Expert</p>
                             </div>
                         </div>
                     </div>
@@ -633,7 +560,7 @@
                     <div class="row y-gap-20 justify-between items-center">
                         <div class="col-auto">
                             <div class="footer-header__logo">
-                                <img src="assets/img/footer/footer-logo.svg" alt="logo">
+                                <img class="psc_logo" src="assets/img/psc/psc-logo.png" alt="logo">
                             </div>
                         </div>
                         <div class="col-auto">
